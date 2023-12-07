@@ -1,0 +1,99 @@
+{
+  "kpi": [
+    {
+      "title": "budget",
+      "amount": 24000,
+      "amountType": "thousands",
+      "image": "MoneyOutlined",
+      "changeFromLastMonth": -12,
+      "type":"change"
+    },
+    
+    {
+    "title": "total customer",
+      "amount": 1600,
+      "amountType": "thousands",
+      "image": "GroupOutlined",
+      "changeFromLastMonth": 16,
+      "type":"change"
+    },
+    
+    {
+    "title": "task progress",
+      "amount": 75.5,
+      "amountType": "percentaje",
+      "image": "InsertChartOutlinedRounded",
+      "changeFromLastMonth": null,
+      "type":"progress"
+    },
+    
+    {
+    "title": "total profit",
+      "amount": 23000,
+      "amountType": "thousands",
+      "image": "AttachMoneyOutlined",
+      "changeFromLastMonth": null,
+      "type":null
+    }
+  ],
+  "sales": [
+    {
+      "date": "2023-08-01",
+      "currentYear": 18,
+      "lastYear": 11
+    },
+  
+    {
+      "date": "2023-08-02",
+      "currentYear": 5,
+      "lastYear": 20
+    },
+  
+    {
+      "date": "2023-08-03",
+      "currentYear": 19,
+      "lastYear": 13
+    },
+  
+    {
+      "date": "2023-08-04",
+      "currentYear": 26,
+      "lastYear": 29
+    },
+  
+    {
+      "date": "2023-08-05",
+      "currentYear": 29,
+      "lastYear": 30
+    },
+  
+    {
+      "date": "2023-08-06",
+      "currentYear": 18,
+      "lastYear": 25
+    },
+  
+    {
+      "date": "2023-08-07",
+      "currentYear": 20,
+      "lastYear": 14
+    }
+  
+  ],
+  "traffic": [
+    {
+      "device": "desktop",
+      "traffic": 63
+    },
+  
+    {
+      "device": "tablet",
+      "traffic": 15
+    },
+  
+    {
+      "device": "mobile",
+      "traffic": 23
+    }
+  ]
+}

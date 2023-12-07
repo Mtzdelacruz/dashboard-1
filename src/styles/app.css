@@ -8,7 +8,7 @@ hr {
     width: 220px;
 }
 
-.Menu-Box {
+.menu-box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,8 +16,8 @@ hr {
     height: 100vh;
 }
 
+
 .avatar {
-    position: absolute;
     right: 60px;
 }
 
@@ -34,4 +34,55 @@ hr {
 .type label {
     color: #EEF3FD;
 }
+
+.title {
+    font: UpperCase;
+}
+
+/* kpi */
+.kpi-container {
+    min-height: 150px;
+    padding: 0px 20px;
+  }
+  .card-header-container {
+    display: flex;
+  }
+  .card-title-container {
+    flex: 1;
+    line-height: 8px;
+  }
+  .card-title {
+    color: #9396A1;
+    text-transform: uppercase;
+  }
+  .card-icon-container {
+    padding: 24px 0px;
+  }
+  .card-container {
+    display: flex;
+    height: 170px;
+    justify-content: space-between;
+  }
+  .progress-bar {
+    padding-top: 16px;
+    width: 100%;
+  }
+  .increase {
+    color: #14B8A7;
+    margin-bottom: -4px;
+  }
+  .decrease {
+    color: #CD4344;
+    margin-bottom: -4px;
+  }
+  .gain {
+    color: black;
+    font-weight: 500;
+  }
+  .kpi-footer {
+    color: #9396A1;
+  }
+
+  /* traffic */
+  
   

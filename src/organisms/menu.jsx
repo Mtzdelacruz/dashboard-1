@@ -14,7 +14,9 @@ import {
 
 import logo from '../assets/img/logo.png';
 
-const BG_ICON = { color: '#EEF3FD' };
+import "../styles/app.css"
+
+const BG_ICON = { color: '#EEF3FD'};
 
 const tier = [
   { label: 'Basic'},
@@ -24,8 +26,8 @@ const tier = [
 
 function Menu() {
   return (
-    <Box className= 'Menu-Box'>
-      <Avatar className= 'avatar' src={logo} sx={{ marginTop: 2, marginBottom: 2 }} />
+    <Box className= 'menu-box'>
+      <Avatar className= 'avatar' src={logo}  />
       <Box className= 'type'>
         <Autocomplete
           disablePortal
